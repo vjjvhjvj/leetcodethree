@@ -4,7 +4,7 @@ import java.util.*;
 
 public class IkunOne {
     public static void main(String[] args) {
-
+        System.out.println(groupAnagrams(new String[]{"ate", "set"}));
     }
     public static List<List<String>> groupAnagrams(String[] strs) {
         //使用哈希表解题
